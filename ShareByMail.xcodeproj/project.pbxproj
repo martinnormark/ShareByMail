@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D087B1F21A84FAA400B64EF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D087B1F11A84FAA400B64EF5 /* AppDelegate.swift */; };
+		D087B1F41A84FAA400B64EF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D087B1F31A84FAA400B64EF5 /* ViewController.swift */; };
+		D087B1F71A84FAA400B64EF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D087B1F51A84FAA400B64EF5 /* Main.storyboard */; };
+		D087B1F91A84FAA400B64EF5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D087B1F81A84FAA400B64EF5 /* Images.xcassets */; };
+		D087B1FC1A84FAA400B64EF5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D087B1FA1A84FAA400B64EF5 /* LaunchScreen.xib */; };
+		D087B21A1A84FAF800B64EF5 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D087B2191A84FAF800B64EF5 /* ShareViewController.swift */; };
+		D087B21F1A84FAF800B64EF5 /* ShareByMailExt.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D087B2151A84FAF800B64EF5 /* ShareByMailExt.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D087B2271A851B0000B64EF5 /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D087B2261A851B0000B64EF5 /* EntryViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D087B21D1A84FAF800B64EF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D087B1E41A84FAA400B64EF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D087B2141A84FAF800B64EF5;
+			remoteInfo = ShareByMailExt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D087B2231A84FAF800B64EF5 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D087B21F1A84FAF800B64EF5 /* ShareByMailExt.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D087B1EC1A84FAA400B64EF5 /* ShareByMail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShareByMail.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D087B1F01A84FAA400B64EF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D087B1F11A84FAA400B64EF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D087B1F31A84FAA400B64EF5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D087B1F61A84FAA400B64EF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D087B1F81A84FAA400B64EF5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D087B1FB1A84FAA400B64EF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D087B2151A84FAF800B64EF5 /* ShareByMailExt.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ShareByMailExt.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		D087B2181A84FAF800B64EF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D087B2191A84FAF800B64EF5 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		D087B2261A851B0000B64EF5 /* EntryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
+		D087B2281A85442A00B64EF5 /* ShareByMailExt.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ShareByMailExt.entitlements; sourceTree = "<group>"; };
+		D087B2291A85445700B64EF5 /* ShareByMail.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ShareByMail.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D087B1E91A84FAA400B64EF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D087B2121A84FAF800B64EF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D087B1E31A84FAA400B64EF5 = {
+			isa = PBXGroup;
+			children = (
+				D087B1EE1A84FAA400B64EF5 /* ShareByMail */,
+				D087B2161A84FAF800B64EF5 /* ShareByMailExt */,
+				D087B1ED1A84FAA400B64EF5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D087B1ED1A84FAA400B64EF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D087B1EC1A84FAA400B64EF5 /* ShareByMail.app */,
+				D087B2151A84FAF800B64EF5 /* ShareByMailExt.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D087B1EE1A84FAA400B64EF5 /* ShareByMail */ = {
+			isa = PBXGroup;
+			children = (
+				D087B2291A85445700B64EF5 /* ShareByMail.entitlements */,
+				D087B1F11A84FAA400B64EF5 /* AppDelegate.swift */,
+				D087B1F31A84FAA400B64EF5 /* ViewController.swift */,
+				D087B1F51A84FAA400B64EF5 /* Main.storyboard */,
+				D087B1F81A84FAA400B64EF5 /* Images.xcassets */,
+				D087B1FA1A84FAA400B64EF5 /* LaunchScreen.xib */,
+				D087B1EF1A84FAA400B64EF5 /* Supporting Files */,
+			);
+			path = ShareByMail;
+			sourceTree = "<group>";
+		};
+		D087B1EF1A84FAA400B64EF5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D087B1F01A84FAA400B64EF5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D087B2161A84FAF800B64EF5 /* ShareByMailExt */ = {
+			isa = PBXGroup;
+			children = (
+				D087B2281A85442A00B64EF5 /* ShareByMailExt.entitlements */,
+				D087B2261A851B0000B64EF5 /* EntryViewController.swift */,
+				D087B2191A84FAF800B64EF5 /* ShareViewController.swift */,
+				D087B2171A84FAF800B64EF5 /* Supporting Files */,
+			);
+			path = ShareByMailExt;
+			sourceTree = "<group>";
+		};
+		D087B2171A84FAF800B64EF5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D087B2181A84FAF800B64EF5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D087B1EB1A84FAA400B64EF5 /* ShareByMail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D087B20B1A84FAA400B64EF5 /* Build configuration list for PBXNativeTarget "ShareByMail" */;
+			buildPhases = (
+				D087B1E81A84FAA400B64EF5 /* Sources */,
+				D087B1E91A84FAA400B64EF5 /* Frameworks */,
+				D087B1EA1A84FAA400B64EF5 /* Resources */,
+				D087B2231A84FAF800B64EF5 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D087B21E1A84FAF800B64EF5 /* PBXTargetDependency */,
+			);
+			name = ShareByMail;
+			productName = ShareByMail;
+			productReference = D087B1EC1A84FAA400B64EF5 /* ShareByMail.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D087B2141A84FAF800B64EF5 /* ShareByMailExt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D087B2201A84FAF800B64EF5 /* Build configuration list for PBXNativeTarget "ShareByMailExt" */;
+			buildPhases = (
+				D087B2111A84FAF800B64EF5 /* Sources */,
+				D087B2121A84FAF800B64EF5 /* Frameworks */,
+				D087B2131A84FAF800B64EF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShareByMailExt;
+			productName = ShareByMailExt;
+			productReference = D087B2151A84FAF800B64EF5 /* ShareByMailExt.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D087B1E41A84FAA400B64EF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Martin Normark";
+				TargetAttributes = {
+					D087B1EB1A84FAA400B64EF5 = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = M5NC87P8XY;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					D087B2141A84FAF800B64EF5 = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = M5NC87P8XY;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = D087B1E71A84FAA400B64EF5 /* Build configuration list for PBXProject "ShareByMail" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D087B1E31A84FAA400B64EF5;
+			productRefGroup = D087B1ED1A84FAA400B64EF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D087B1EB1A84FAA400B64EF5 /* ShareByMail */,
+				D087B2141A84FAF800B64EF5 /* ShareByMailExt */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D087B1EA1A84FAA400B64EF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D087B1F71A84FAA400B64EF5 /* Main.storyboard in Resources */,
+				D087B1FC1A84FAA400B64EF5 /* LaunchScreen.xib in Resources */,
+				D087B1F91A84FAA400B64EF5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D087B2131A84FAF800B64EF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D087B1E81A84FAA400B64EF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D087B1F41A84FAA400B64EF5 /* ViewController.swift in Sources */,
+				D087B1F21A84FAA400B64EF5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D087B2111A84FAF800B64EF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D087B21A1A84FAF800B64EF5 /* ShareViewController.swift in Sources */,
+				D087B2271A851B0000B64EF5 /* EntryViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D087B21E1A84FAF800B64EF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D087B2141A84FAF800B64EF5 /* ShareByMailExt */;
+			targetProxy = D087B21D1A84FAF800B64EF5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D087B1F51A84FAA400B64EF5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D087B1F61A84FAA400B64EF5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D087B1FA1A84FAA400B64EF5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D087B1FB1A84FAA400B64EF5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D087B2091A84FAA400B64EF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D087B20A1A84FAA400B64EF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D087B20C1A84FAA400B64EF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ShareByMail/ShareByMail.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = ShareByMail/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		D087B20D1A84FAA400B64EF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ShareByMail/ShareByMail.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = ShareByMail/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		D087B2211A84FAF800B64EF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ShareByMailExt/ShareByMailExt.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ShareByMailExt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D087B2221A84FAF800B64EF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ShareByMailExt/ShareByMailExt.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = ShareByMailExt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D087B1E71A84FAA400B64EF5 /* Build configuration list for PBXProject "ShareByMail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D087B2091A84FAA400B64EF5 /* Debug */,
+				D087B20A1A84FAA400B64EF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D087B20B1A84FAA400B64EF5 /* Build configuration list for PBXNativeTarget "ShareByMail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D087B20C1A84FAA400B64EF5 /* Debug */,
+				D087B20D1A84FAA400B64EF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D087B2201A84FAF800B64EF5 /* Build configuration list for PBXNativeTarget "ShareByMailExt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D087B2211A84FAF800B64EF5 /* Debug */,
+				D087B2221A84FAF800B64EF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D087B1E41A84FAA400B64EF5 /* Project object */;
+}
